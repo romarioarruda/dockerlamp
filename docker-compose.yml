@@ -9,7 +9,7 @@ services:
             - ./public:/var/www/html/
         ports:
             - 8081:80
-        links:
+        depends_on:
             - db
     db:
         container_name: mysql8
