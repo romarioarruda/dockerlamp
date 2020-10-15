@@ -1,6 +1,7 @@
 # Docker LAMP
 
-Ambiente de desenvolvimento usando Docker Compose.
+Ambiente de desenvolvimento usando `Docker Compose`.
+>
 Stack:
 
 * PHP 7.4
@@ -45,23 +46,23 @@ Por padrão, os seguintes módulos estão habilitados:
 
 ## Database
 
-Esse stack vem com as seguintes credenciais:
+Essa stack vem com as seguintes credenciais:
 
 _**SENHA DO ROOT**_
 
-/br4vu5_root/is
+`/br4vu5_root/is`
 
 _**BANCO**_
 
-crud_teste
+`crud_teste`
 
 _**USUÁRIO**_
 
-devuser
+`devuser`
 
 _**SENHA DO USUÁRIO**_
 
-devpass
+`devpass`
 
 ## PHP
 
@@ -94,5 +95,5 @@ Por padrão, os seguintes módulos estarão habilitados:
 O phpMyAdmin está configurado para usar a porta `8080`, com as credenciais:
 
 http://localhost:8080/
-username: root
-password: /br4vu5_root/is
+username: `root`
+password: `/br4vu5_root/is`
